@@ -103,6 +103,7 @@ def replace_some(L, chance_of_replacing):
 # below are functions that relate to sound-processing ...
 #
 
+Sound = namedtuple("Sound", ["samples", "rate"])
 
 # a function to make sure everything is working
 def test():
